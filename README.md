@@ -88,7 +88,7 @@ Este tipo de experimentos evidencian la importancia de comprender los fundamento
 
 ---
 
-## Como ejecutar el proyecto
+## Como ejecutar el proyecto manualmente
 
 - Compilación: 
 ```shelld
@@ -108,4 +108,9 @@ java -Xint App
 - Ejecución compilada (Sin interpretación):
 ``` shell
 java -Xcomp App
+```
+
+## Como ejecutar el proyecto con la herramienta automática
+``` shell
+python3 gui.py
 ```
