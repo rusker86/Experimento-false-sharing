@@ -65,14 +65,14 @@ public class App {
 		th1.start();
 		th2.start();
 		//Descomentar este hilo para ver los efectos del false sharing cuando el número de hilos escala
-//		th3.start();
+		th3.start();
 
 		try {
 			th1.join();
 			th2.join();
 
 //		Descomentar si se va a usar el hilo 3
-//		th3.join();		
+		th3.join();		
 		} catch (InterruptedException e) {
 			System.out.println(e.getMessage());
 		}
@@ -82,14 +82,14 @@ public class App {
 		th4.start();
 		th5.start();
 		// Descomentar este hilo para ver los efectos del true sharing
-//		th6.start();
+		th6.start();
 
 		try {
 			th4.join();
 			th5.join();
 
 //		Descomentar si se va a usar el hilo 6
-//		th6.join();		
+		th6.join();		
 		} catch (InterruptedException e) {
 			System.out.println(e.getMessage());
 		}
