@@ -62,7 +62,7 @@ def run_experiment():
 		fig, ax = plt.subplots(figsize=(4, 3))
 		ax.bar(["Con False Sharing", "Sin False Sharing"], [t_false, t_true], color=["red", "green"])
 		ax.set_ylabel("Tiempo total (ms)")
-		ax.set_title("Comparación de rendimiento")
+		ax.set_title("Comparación de rendimiento", pad = 10)
 
 		for i, v in enumerate([t_false, t_true]):
 			ax.text(i, v + (v * 0.05), f"{v:.0f} ms", ha="center")
