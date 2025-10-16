@@ -89,7 +89,7 @@ Este tipo de experimentos evidencian la importancia de comprender los fundamento
 ---
 
 ### Actualización
-Por motivos didacticos se ha añadido una herramienta que automatiza los test de rendimiento y genera un gráfico comparativo. Si bien es inestable no afecta negativamente al rendimiento. Hasta que no se publique una versión estable se recomienda ejecutar el experimento de forma manual
+Por motivos didacticos se ha añadido una herramienta que automatiza los test de rendimiento y genera un gráfico comparativo. Si bien es inestable no afecta negativamente al rendimiento. Hasta que no se publique una versión estable se recomienda ejecutar el experimento de forma manual.
 
 ## Como ejecutar el proyecto manualmente
 
@@ -117,3 +117,5 @@ java -Xcomp App
 ``` shell
 python3 gui.py
 ```
+
+# Para ejecutar las pruebas automatizadas es necesario contar con una versión 3 de python y las librerías pandas y matplotlib
